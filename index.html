@@ -1,13 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="jssheet" href="index.js">
+    <title>Travel Agency</title>
+    <link rel="index.css" href="index.css">
 </head>
-<body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima similique id temporibus provident ab. Possimus laborum sed aliquam fugit vel esse nesciunt, deleniti veritatis doloribus porro excepturi! Rem, maiores illo.</p>
+<body style="background-image: url('img\background.png'); background-size: cover; background-repeat: no-repeat;">
+<div class="background">
+<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, atque reprehenderit? Voluptatibus quisquam earum, voluptatum sint nihil quia, aspernatur expedita tenetur exercitationem cum nobis laboriosam, itaque laudantium excepturi? Beatae, animi.</h1>
+</div>
+    
+    <header>
+        <div class="container">
+            <h1><a href="#">Travel Agency</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Tour Packages</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Eng</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#" class="signup">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Enjoy in the best way!</h2>
+            <p>Enjoy our services for your trip anytime</p>
+            <div class="search-bar">
+                <div class="search-option">
+                    <label for="tour-type">Public Tours</label>
+                    <input type="radio" name="tour-type" id="tour-type" checked>
+                    <label for="tour-type">Private Tours</label>
+                    <input type="radio" name="tour-type" id="tour-type"> 
+                </div>
+                <div class="search-option">
+                    <label for="people">Number of people</label>
+                    <select id="people">
+                        <option value="">Choose number</option>
+                    </select>
+                </div>
+                <div class="search-option">
+                    <label for="date">Date</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="search-option">
+                    <label for="time">Time</label>
+                    <select id="time">
+                        <option value="">Choose Time</option>
+                    </select>
+                </div>
+                <div class="search-option">
+                    <label for="tour">Tour</label>
+                    <select id="tour">
+                        <option value="">Select Tour</option>
+                    </select>
+                </div>
+                <div class="search-option">
+                    <label for="transport">Transportation</label>
+                    <select id="transport">
+                        <option value="">Select Transportation</option>
+                    </select>
+                </div>
+                <button type="submit"><img src="search-icon.png" alt="Search"></button> 
+            </div>
+        </div>
+    </section>
+
+    <section class="destinations">
+        <div class="container">
+            <h3>Explore Our Popular Destinations</h3>
+            <div class="destination-grid">
+                <div class="destination">
+                    <img src="lucca-bike-tour.jpg" alt="Lucca Bike Tour">
+                    <h4>Lucca Bike Tour</h4>
+                </div>
+                <div class="destination">
+                    <img src="wine-tasting.jpg" alt="Wine tasting in Tuscany">
+                    <h4>Wine tasting in Tuscany</h4>
+                </div>
+                <div class="destination">
+                    <img src="cinque-terre.jpg" alt="Cinque Terre Tour">
+                    <h4>Cinque Terre Tour</h4>
+                </div>
+                <div class="destination">
+                    <img src="siena.jpg" alt="Siena and Surroundings">
+                    <h4>Siena and Surroundings</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        </footer>
 </body>
 </html>

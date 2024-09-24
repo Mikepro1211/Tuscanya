@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+/*cambiods*/
+.background{
+    background-image: url('C:\Users\Estudiantes\Desktop\Carlos Velásquez 3rd year\Tuscanya\img\background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0}
