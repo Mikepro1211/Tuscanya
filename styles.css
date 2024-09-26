@@ -7,4 +7,34 @@
 body {
     background-image: url(img/fondo.jpeg);
     background-size: cover;
+
+}
+
+header img {
+    width: 133px;
+    height: 130px;
+    top: 20px;
+    left: 250px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 1,920px;
+    height: 170px;
+    padding-top: 20px;
+    padding-right: 250px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#nav_date{
+    display: inline;
+}
+
+li{
+    display: inline;
+    width: 1,009px;
+    height: 47px;
+    gap: 167px;
 }
