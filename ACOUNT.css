@@ -1,0 +1,26 @@
+.HEADER{
+    width: Hug (1,920px)px;
+height: Hug (170px)px;
+padding: 20px 250px 20px 250px;
+gap: 463px;
+border: 0px 0px 1px 0px;
+opacity: 0px;
+background: #FFFFFF4D;
+border-bottom: 1px solid #EFEFEF
+}
+
+.logo{
+    width: 133px;
+height: 130px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.menú{
+    width: Hug (824px)px;
+height: Hug (60px)px;
+gap: 167px;
+opacity: 0px;
+
+}
