@@ -28,13 +28,25 @@ header{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-#nav_date{
-    display: inline;
-}
-
 li{
     display: inline;
     width: 1,009px;
     height: 47px;
     gap: 167px;
+}
+
+#nav_date{
+    width: Hug (105px)px;
+    height: Hug (27px)px;
+    gap: 10px;
+    opacity: 0px;
+
+}
+
+#nav_date1 {
+    width: Hug (324px)px;
+    height: Hug (47px)px;
+    gap: 10px;
+    opacity: 0px;
+
 }
