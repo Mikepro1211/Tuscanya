@@ -8,13 +8,22 @@
     opacity: 0.5;
 
 }
-
+#login{
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+   
+    font-size: larger;
+}
 
 #background{
     background-image: url("img/background.png");
     background-size: auto;
     
+    
 }
+
 .hero{
     font-size: larger;
     color: #ffffff;
@@ -42,16 +51,30 @@
     font-family: 'Teko', sans-serif;
     margin: 0;
 }
-.background{
-    background-image: url('img\background.png');
-    background-image: url('C:\Users\Estudiantes\Desktop\Carlos Velásquez 3rd year\Tuscanya\img\background.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin: 0;
-}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: center;
     padding: 0}
-    
+    #search-option{
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 50px auto;
+}
+.contenedor:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
