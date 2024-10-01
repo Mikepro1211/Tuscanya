@@ -33,6 +33,7 @@ li{
     width: 1,009px;
     height: 47px;
     gap: 167px;
+
 }
 
 #nav_date{
@@ -49,4 +50,39 @@ li{
     gap: 10px;
     opacity: 0px;
 
+}
+
+.titulo_date {
+    width: Hug (1,145.5px)px;
+    height: Hug (390px)px;
+    top: 299px;
+    left: 387.25px;
+    gap: 60px;
+    opacity: 0px;
+
+}
+
+h1{
+    width: 553px;
+    height: 73px;
+    color: #ffff;
+    font-family: Podcast;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72.65px;
+    text-align: center;
+
+}
+
+h4 {
+    width: 475px;
+    height: 33px;
+    gap: 0px;
+    opacity: 0px;
+    color: #ffff;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-align: center;
 }
