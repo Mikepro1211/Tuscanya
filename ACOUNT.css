@@ -1,5 +1,9 @@
-.HEADER{
-    width: Hug (1,920px)px;
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+/*.HEADER{
+width: Hug (1,920px)px;
 height: Hug (170px)px;
 padding: 20px 250px 20px 250px;
 gap: 463px;
@@ -7,20 +11,109 @@ border: 0px 0px 1px 0px;
 opacity: 0px;
 background: #FFFFFF4D;
 border-bottom: 1px solid #EFEFEF
-}
+} */
 
 .logo{
-    width: 133px;
+width: 133px;
 height: 130px;
 gap: 0px;
 opacity: 0px;
 
+
 }
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: Hug (1,920px)px;
+}
+    
 
 .menú{
-    width: Hug (824px)px;
-height: Hug (60px)px;
-gap: 167px;
-opacity: 0px;
+    display:flex;
+    flex-direction: row;
+    width: (824px)px;
+    height: (60px)px;
+    gap: 167px;
+    opacity: 0px;
+    margin-left: 300px;
 
 }
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+ul li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+
+#Perfil{
+width: 60px;
+height: 60px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+margin-left: 23px;
+
+}
+
+.h2{
+    width: 178px;
+height: 44px;
+top: 290px;
+left: 250px;
+gap: 0px;
+opacity: 0px;
+font-family: Open Sans;
+font-size: 32px;
+font-weight: 800;
+line-height: 43.58px;
+text-align: center;
+}
+
+.contenedor{
+display: flex;
+flex-direction: row;
+align-items: center;
+width:  (1,420px);
+height: (373px);
+top: 372px;
+left: 250px;
+padding: 4px 20px 4px 20px;
+gap: 0px;
+border-radius: 24px 0px 0px 0px; 
+justify-content: space-between;
+}
+
+.Tour {
+    width: 560px;
+    height: 27px;
+    gap: 0px;
+    opacity: 0.6px;
+    font-family: Open Sans;
+    font-size: 20px;
+   font-weight: 600;
+   line-height: 27.24px;
+   text-align: left;
+   background: #b6b3b3;
+}
+
+.Payment{
+width: 360px;
+height: 27px;
+gap: 0px;
+opacity: 0.6px;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27.24px;
+text-align: center;
+background: #b6b3b3;
+}
+
