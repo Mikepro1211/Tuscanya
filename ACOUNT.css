@@ -133,38 +133,51 @@ footer{
     width: Hug (1,920px)px;
     height: Hug (648px)px;
     top: 1767px;
-    padding: 40px 250px 40px 250px;
+    padding: 25px 250px 25px 250px;
     gap: 33px;
     opacity: 0px;
 
 }
 
 #FL{
-    width: 133px;
-    height: 130px;
+    width: 100px;
+    height: 105px;
     gap: 0px;
     opacity: 0px;
     border-left: -500px;
+    display: flex;
+    margin-top: -40px;
+
+    
 }
 
 h3{
-    color:aquamarine;
+    color:rgb(153, 218, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-footer li{
+footer{
     color:rgb(238, 246, 247);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #252424;
+    height: 175px;
 }
 
-.Services{
-font-family: Open Sans;
-font-size: 15px;
-font-weight: 600;
-line-height: 20px;
-text-align: left;
-color: #ffffff;
-margin-left: 25px;
-align-content: first baseline;
+.foot{
+    align-items: center;
+    margin-left: 195px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between 500px;
+    text-align: center;
+    margin-top:-10px ;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+.media{
+    margin-top: -15px;
+}
