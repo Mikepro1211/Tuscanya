@@ -1,80 +1,179 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
-*{
+* {
+    margin: 0;
     padding: 0;
-    margin: 0;
-}
-#header{
-    color:#ffffff;
-    opacity: 0.5;
-
-}
-#login{
-    justify-content: right;
-    padding: 0;
-    margin: 0;
-    color: #ffffff;
-   
-    font-size: larger;
-}
-
-#background{
-    background-image: url("img/background.png");
-    background-size: auto;
-    
-    
-}
-
-.hero{
-    font-size: larger;
-    color: #ffffff;
-}
-.container ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    color: #ffffff;
-    display: flex; 
-    justify-content:center;
-    font-size: larger;
-}
-.container li {
-    margin-left: 10px; /* Espacio entre los elementos */
-}
- *{
-    font-family: "Teko", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-
-*body {
-    font-family: 'Teko', sans-serif;
-    margin: 0;
-}
-
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    font-size: larger;
-    font-weight: bold;
-    justify-content: center;
-    padding: 0}
-    #search-option{
-    width: 300px;
-    height: 200px;
-    background-color: #f0f0f0;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
-    color: #333;
-    margin: 50px auto;
 }
-.contenedor:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+body {
+    background-color: #f5f5f5;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 150px;
+}
+
+
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; 
+
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+.auth-links {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-links a {
+    text-decoration: none;
+    color: #ff6b00;
+}
+
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+
+
+
+.search-bar {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar form {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar select,
+.search-bar input,
+.search-bar button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #ff6b00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #e65a00;
+}
+
+
+
+
+.popular-destinations {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.popular-destinations h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 1.1em;
 }

@@ -1,80 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <div id="background">    
-    <div id="header">
-
-    <img src="img/logo.png" alt="Logo">
-    <title>Travel Agency</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Website</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
-    </div>
 </head>
 <body>
-      
+
+
+
+
     <header>
-        <div class="container">
-            <h1><a href="#">Travel Agency</a></h1>
+        <div class="navbar">
+            <div class="logo">
+                <!-- logo -->
+                <img src="img/logo.png" alt="Logo">
+            </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Tour Packages</li>
-                    <li>Contact Us</li>
-                    <li>Eng</li>
-                    <li>Login</li>
-                    <li>Sign Up</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Tour Packages</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </nav>
+            <div class="auth-links">
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </div>
         </div>
     </header>
 
     <section class="hero">
-        <div class="container">
-            <h2>Enjoy in the best way!</h2>
+        
+        <div class="hero-overlay">
+            <h1>Enjoy in the best way!</h1>
             <p>Enjoy our services for your trip anytime</p>
+        </div>
+    
+        <img src="img/que-ver-en-florencia-duomo.jpg" alt="Florencia" class="hero-image">
+    </section>
+
+   
+    <section class="search-bar">
+        <form action="#">
+            <select name="tour-type">
+                <option value="public">Public Tours</option>
+                <option value="private">Private Tours</option>
+            </select>
+
+
+
+            <input type="number" name="people" placeholder="Number of people">
+            <input type="date" name="date">
+            <input type="time" name="time">
+            <select name="tour">
+
+
+
+
+                <option value="wine-tasting">Wine Tasting in Tuscany</option>
+                <option value="lucca-bike-tour">Lucca Bike Tour</option>
+                <option value="cinque-terre">Cinque Terre Tour</option>
+            </select>
+
+
+            
+            <select name="transportation">
+                <option value="bus">Bus</option>
+                <option value="car">Car</option>
+            </select>
+            <!--búsqueda -->
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    
+    <section class="popular-destinations">
+        <h2>Explore Our Popular Destinations</h2>
+        <div class="destination-cards">
+        
+            <div class="card">
+                <img src="img/premium_photo-1661962364008-85ad40328d89.jpeg" alt="Lucca Bike Tour">
+                <p>Lucca Bike Tour</p>
             </div>
-            <div class="search-bar">
-                <div class="search-option">
-                    <label for="tour-type">Public Tours</label>
-                    <input type="radio" name="tour-type" id="tour-type" checked>
-                    <label for="tour-type">Private Tours</label>
-                    <input type="radio" name="tour-type" id="tour-type"> 
-                </div>
-                <div class="search-option">
-                    <label for="people">Number of people</label>
-                    <select id="people">
-                        <option value="">Choose number</option>
-                    </select>
-                </div>
-                <div class="search-option">
-                    <label for="date">Date</label>
-                    <input type="date" id="date">
-                </div>
-                <div class="search-option">
-                    <label for="time">Time</label>
-                    <select id="time">
-                        <option value="">Choose Time</option>
-                    </select>
-                </div>
-                <div class="search-option">
-                    <label for="tour">Tour</label>
-                    <select id="tour">
-                        <option value="">Select Tour</option>
-                    </select>
-                </div>
-                <div class="search-option">
-                    <label for="transport">Transportation</label>
-                    <select id="transport">
-                        <option value="">Select Transportation</option>
-                    </select>
-                </div>
-                <button type="submit"><img src="search-icon.png" alt="Search"></button> 
+        
+            <div class="card">
+                <img src="img/arc-de-triomf.jpg" alt="Wine Tasting in Tuscany">
+                <p>Wine Tasting in Tuscany</p>
+            </div>
+            
+            <div class="card">
+                <img src="img/220px-1_Saint_Basils_Cathedral.jpg" alt="Cinque Terre Tour">
+                <p>Cinque Terre Tour</p>
+            </div>
+        
+            <div class="card">
+                <img src="img/que-ver-en-florencia-duomo.jpg" alt="Siena and Surroundings">
+                <p>Siena and Surroundings</p>
             </div>
         </div>
+
+
+
     </section>
-</div>
+
+
+
+
+
 </body>
+
+
+
 </html>
