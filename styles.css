@@ -49,27 +49,43 @@ header{
     width: 553px;
     height: 122px;
     gap: 16px;
+    
 }
 
 h1{
+    display: flex;
     width: 553px;
     height: 73px;
     font-family:podcast;
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 400;
     line-height: 72.65px;
     text-align: center;
+    margin-left: 500px;
     color: #ffff;
 }
 
 h4 {
+    display: flex;
     padding-right: 10px;
     width: 475px;
     height: 33px;
     font-family: Open Sans;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 70;
     line-height: 32.68px;
     text-align: center;
+    margin-left: 500px;
+    color: #ffff;
+}
+
+.sub_title {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+    padding: 35px;
+    width: 355px;
+    height: 57px;
     color: #ffff;
 }
