@@ -3,11 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
+    <title> Tour Packages</title>
     <link rel="stylesheet" href="proyecto.css">
     
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Tuscany Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Tour Packages</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="auth-links">
+                <a href="#" class="language">Eng</a>
+                <a href="#" class="login">Login</a>
+                <a href="#" class="signup">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+ 
+    <main>
+        <section class="tour-packages">
+            <h1>Tour Packages</h1>
+            <div class="packages-grid">
+                <div class="package">
+                    <img src="1.jpg" alt="Lucca Bike Tour">
+                    <h2>Lucca Bike Tour</h2>
+                    <p>From 34€</p>
+                </div>
+                <div class="package">
+                    <img src="2.jpg" alt="Wine tasting in Tuscany">
+                    <h2>Wine tasting in Tuscany</h2>
+                    <p>From 34€</p>
+                </div>
+                <div class="package">
+                    <img src="3.jpg" alt="Cinque Terre Tour">
+                    <h2>Cinque Terre Tour</h2>
+                    <p>From 34€</p>
+                </div>
+                <div class="package">
+                    <img src="4.jpg" alt="Siena and Surroundings">
+                    <h2>Siena and Surroundings</h2>
+                    <p>From 34€</p>
+                </div>
+            </div>
+        </section>
+        <main>
+            <section class="tour-packages">
+              
+                <div class="packages-grid">
+                    <div class="package">
+                        <img src="5.jpg" alt="Lucca Bike Tour">
+                        <h2>Tour of the Lucca Hills</h2>
+                        <p>From 34€</p>
+                    </div>
+                    <div class="package">
+                        <img src="6.jpg" alt="Wine tasting in Tuscany">
+                        <h2>
+                            Gardaland, Verona
+                        </h2>
+                        <p>From 34€</p>
+                    </div>
+                    <div class="package">
+                        <img src="7.jpg" alt="Cinque Terre Tour">
+                        <h2>
+                            Pisa & Lucca
+                        </h2>
+                        <p>From 34€</p>
+                    </div>
+                    <div class="package">
+                        <img src="8.jpg" alt="Siena and Surroundings">
+                        <h2>Florence</h2>
+                        <p>From 34€</p>
+                    </div>
+                </div>
+            </section>
+            <section class="tour-packages">
+
+                <h1>Services</h1>
+                <div class="packages-grid">
+                    <div class="package">
+                        <img src="9.jpg" alt="Lucca Bike Tour">
+                        <h2>Bike and rickshaw rental</h2>
+                        <p>Book your quality vehicle quicly for an hour all day!</p>
+                        
+                    </div>
+                    <div class="package">
+                        <img src="10.jpg" alt="Wine tasting in Tuscany">
+                        <h2>Guide tours of Lucca</h2> 
+                        <p>Lived the real Lucchese experience by visiting the suburbs by bike</p>
+                
+                      
+                    </div>
+                    <div class="package">
+                        <img src="12.jpg" alt="Cinque Terre Tour">
+                        <h2>Trips in The Tuscan Hills</h2>
+                        <p>Do you need not only a bike but also a driver? sThen you have found the right place!</p>
+                        
+                    </div>
+                   
+                </div>
+            </section>
+            <main>
+                <section class="tour-packages">
+                  
+                    <div class="packages-grid">
+                        <div class="package">
+                            <img src="13.jpg" alt="Lucca Bike Tour">
+                            <h2>Coach Trip Packages</h2>
+                            <p>Book your quality vehicle quickly for an hour or all day!</p>
+                            
+                        </div>
+                        <div class="package">
+                            <img src="car.jpg" alt="Wine tasting in Tuscany">
+                            <h2>Transportation With Luxury Cars</h2>
+                            <p> Live the real Lucchese experience by visiting the surbus by bike!</p>
+                           
+                        </div>
+                        <div class="package">
+                            <img src="wine.jpg  " alt="Cinque Terre Tour">
+                            <h2>Wine Tours By Bus With Guide</h2>
+                            <p>Do you need not only a bike also a driver? Then you have found the right place! </p>
+                           
+                        </div>
+                    </div>
+                </section>
+        
+        <!-- Sección de Reserva de Bicicleta -->
+<section class="bike-reservation">
+    <div class="reservation-container">
+        <div class="reservation-form">
+            <h2>Book Now Bike</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name and Surname</label>
+                    <input type="text" id="name" placeholder="Enter your name and surname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email address">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telephone Number</label>
+                    <input type="tel" id="phone" placeholder="Enter your telephone number">
+                </div>
+               
+                <div class="form-group">
+                    <label for="service">Service Type</label>
+                    <select id="service">
+                        <option>Select the service type</option>
+                        <option>Mountain Bike</option>
+                        <option>Road Bike</option>
+                        <option>Electric Bike</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <input type="time" id="time">
+                </div>
+               
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+        <div class="reservation-image">
+            <img src="bike.jpg" alt="Bike Image">
+        </div>
+    </div>
+</section>
+<!-- Sección de Testimonios -->
+<section class="testimonials">
+    <h2>Happy Customers Says</h2>
+    <div class="testimonials-container">
+        <div class="testimonial">
+            <img src="usuario.jpg" alt="Lyod Gomez">
+            <h3>Lyod Gomez</h3>
+            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of the hueman happiness.No one rejects, dislikes, or avoids pleasure itself,because it is pleasure</p>
+        </div>
+        <div class="testimonial">
+            <img src="usuario.jpg" alt="Lyod Gomez">
+            <h3>Lyod Gomez</h3>
+            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of the hueman happiness.No one rejects, dislikes, or avoids pleasure itself,because it is pleasure</p>
+        </div>
+    </div>
+</section>
+
+    </footer>
+
+    <div class="footer-container">
+        <div class="footer-column">
+            
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Bike And Rickshaw Rental</a></li>
+                <li><a href="#">Guided Tours of Lucca</a></li>
+                <li><a href="#">Guided Bike Tour of Lucca</a></li>
+                <li><a href="#">Trips in The Tuscan Hills</a></li>
+                <li><a href="#">Wine Tours By Bus</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Home</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Tour Packages</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Help</h3>
+            <ul>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contacts</h3>
+            <p>Piazza Napoleone, Lucca, Tuscany</p>
+            <p>+39 346 368 5708</p>
+            <p>italiabiketours@gmail.com</p>
+        </div>
+        <div class="footer-column">
+            <h3>Social Media</h3>
+            <ul class="social-media">
+                <li><a href="#"><img src="FB.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="Twitter.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="ig.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 All rights reserved.</p>
+    </div>
+</footer>
+
+   
+
+
 
 </body>
     
