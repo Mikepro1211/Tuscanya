@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -16,27 +18,55 @@
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Tour Packages</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li class="signing"><a href="#">Login</a></li>
+                <li class="signing1"><a href="#">Login</a></li>
                 <li class="signing"><a href="#">Sign Up</a></li>
             </ul>
         </nav>
-      
     </header>
-    <article class="titulo_date">
+
+    <div class="hero">
         <h1>Enjoy in the best way!</h1>
-        <h4>Enjoy our services for your trip anytime</h4>
+        <p>Enjoy our services for your trip anytime</p>
         <article>
             <ul class="sub_title">
                 <li>Public Tours</li>
                 <li>Private Tours</li>
             </ul>
         </article>
-        <article>
-            <h6>Date</h6>
-            <input type="date" name="" id=""> 
-        
-        </article>
-    </article>
-    
+        <div class="search-box">
+            <div class="box">
+                <h3><i class="fas fa-calendar-alt icon"></i> Date</h3>
+                <input type="date" value="2022-10-01">
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-clock icon"></i> Time</h3>
+                <select>
+                    <option>1:00 am</option>
+                    <option>2:00 am</option>
+                    <option>3:00 am</option>
+                    <option>4:00 am</option>
+                </select>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-map-marker-alt icon"></i> Tour</h3>
+                <select>
+                    <option>Lucca Bike Tour</option>
+                    <option>Book a Bike</option>
+                    <option>Tour in the outside of Lucca</option>
+                    <option>Wine Tasting in Tuscany</option>
+                    <option>Cinque Terre Tour</option>
+                    <option>Siena and Surroundings</option>
+                </select>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-car icon"></i> Transportation</h3>
+                <select>
+                    <option>Minivan and Bus</option>
+                    <option>Transfers & NCC</option>
+                    <option>Luxury Experience</option>
+                </select>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
