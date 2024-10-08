@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Combined Tour Search</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+
+    <!-- Imagen de fondo -->
+    <div class="background-wrapper">
+        <img src="img/background.png" alt="Background Image" class="background-img">
+        <div class="background-shadow"></div>
+    </div>
+
+    <div class="container">
+        <!-- Primer código (arriba) -->
+        <div class="search-bar">
+            <div class="tabs">
+                <div class="tab" id="publicTab1">Public Tours</div>
+                <div class="tab active" id="privateTab1">Private Tours</div>
+            </div>
+            
+            <div class="search-fields">
+                <select name="date1" id="date1">
+                    <option value="">Choose Date</option>
+                </select>
+                <select name="time1" id="time1">
+                    <option value="">Choose Time</option>
+                </select>
+                <select name="tour1" id="tour1">
+                    <option value="">Select Tour</option>
+                </select>
+                <select name="type1" id="type1">
+                    <option value="">Select Types</option>
+                </select>
+                <button class="search-btn">🔍</button>
+            </div>
+        </div>
+
+        <!-- Segundo código -->
+
+        <div class="tour-options">
+            <div class="tour">
+                <img src="img/the Lucca Hills.jpg" alt="Tour of the Lucca Hills">
+                <h3>Tour of the Lucca Hills</h3>
+                <p>Visit with us the beautiful hills of Lucca, with a guide who will make...</p>
+                <div class="price">from 34 €</div>
+            </div>
+            <div class="tour">
+                <img src="img/gardaland, verona.jpg" alt="Gardaland, Verona">
+                <h3>Gardaland, Verona</h3>
+                <p>Visit the largest and most fun park in Italy suitable for all...</p>
+                <div class="price">from 34 €</div>
+            </div>
+            <div class="tour">
+                <img src="img/Lucca.jpg" alt="Pisa & Lucca">
+                <h3>Pisa & Lucca</h3>
+                <p>Visiting the 5 Terre is a must, and you can never go there enough...</p>
+                <div class="price">from 34 €</div>
+            </div>
+            <div class="tour">
+                <img src="img/Florencia.jpg" alt="Florence">
+                <h3>Florence</h3>
+                <p>Visit the beautiful Siena and the cities that surround it to experience...</p>
+                <div class="price">from 34 €</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Tab switching logic for first section
+        const publicTab1 = document.getElementById('publicTab1');
+        const privateTab1 = document.getElementById('privateTab1');
+
+        publicTab1.addEventListener('click', function () {
+            publicTab1.classList.add("active");
+            privateTab1.classList.remove('active');
+        });
+
+        privateTab1.addEventListener("click", function () {
+            privateTab1.classList.add("active");
+            publicTab1.classList.remove("active");
+        });
+    </script>
+
 </body>
 </html>
