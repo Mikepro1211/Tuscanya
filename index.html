@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Booking - Wine Tasting in Tuscany</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Tuscany Logo">
+            <h1>Tuscany</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Tour Packages</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="login-signup">
+                <a href="#">Login</a>
+                <a href="#" class="signup">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="booking">
+            <div class="booking-steps">
+                <div class="step active">1. Booking Details</div>
+                <div class="step">2. Your Details</div>
+                <div class="step">3. Payment</div>
+            </div>
+
+            <div class="booking-details">
+                <form>
+                    <label for="visit-date">When will you visit?</label>
+                    <input type="date" id="visit-date" name="visit-date" value="2022-12-22">
+
+                    <label for="visit-time">Which time?</label>
+                    <select id="visit-time" name="visit-time">
+                        <option value="15:00">15:00</option>
+                    </select>
+
+                    <h3>Select Your Tickets</h3>
+                    <div class="ticket-options">
+                        <div class="ticket-option">
+                            <label for="adult">Adult (18+)</label>
+                            <input type="number" id="adult" name="adult" min="0" max="10" value="0">
+                            <span>€34.00</span>
+                        </div>
+
+                        <div class="ticket-option">
+                            <label for="child">Child (6-17)</label>
+                            <input type="number" id="child" name="child" min="0" max="10" value="0">
+                            <span>€22.00</span>
+                        </div>
+
+                        <div class="ticket-option">
+                            <label for="infant">Infant (0-5)</label>
+                            <input type="number" id="infant" name="infant" min="0" max="10" value="0">
+                            <span>FREE</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <aside class="ticket-overview">
+                <h2>Your Tickets Overview</h2>
+                <div class="overview-details">
+                    <p>Wine Tasting in Tuscany</p>
+                    <p><strong>Date:</strong> Fri, 22 Dec 2022</p>
+                    <p><strong>Time:</strong> 15:00</p>
+                </div>
+                <div class="summary">
+                    <p>2 Adult (18+): €64.00</p>
+                    <p>1 Child (6-17): €22.00</p>
+                    <p>1 Infant (0-5): €0.00</p>
+                </div>
+                <h3>Total Price: €86.00</h3>
+                <button class="next-step">Go to the Next Step</button>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tuscany. All rights reserved.</p>
+    </footer>
 </body>
 </html>
